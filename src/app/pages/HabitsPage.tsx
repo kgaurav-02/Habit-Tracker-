@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Calendar as CalendarIcon, BarChart3, Settings, Flame, CheckCircle2, MoreVertical } from 'lucide-react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import { Checkbox } from '../components/ui/checkbox';
 import { Badge } from '../components/ui/badge';
 import { AddHabitDialog } from '../components/AddHabitDialog';

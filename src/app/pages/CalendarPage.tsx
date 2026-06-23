@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, CheckCircle2, Calendar as CalendarIcon, BarChart3, Plus } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import {

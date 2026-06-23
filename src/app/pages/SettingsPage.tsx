@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Lock, Trash2, Download, Upload, LogOut, Check, Palette, Image, Sliders } from 'lucide-react';
 import {
   AlertDialog,

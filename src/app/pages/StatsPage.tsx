@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import { CheckCircle2, Calendar as CalendarIcon, BarChart3, Plus, TrendingUp, Award, Target } from 'lucide-react';
 import { Progress } from '../components/ui/progress';
 import { useTheme } from '../contexts/ThemeContext';
